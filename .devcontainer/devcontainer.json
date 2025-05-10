@@ -1,12 +1,12 @@
 {
     "build": {
-      "dockerfile": "Dockerfile",
-      "context": ".."
+        "dockerfile": "Dockerfile",
+        "context": ".."
     },
     "remoteUser": "vscode",
     "runArgs": [
-      "--env-file",
-      ".env"
+        "--env-file",
+        ".env"
     ],
     "postCreateCommand": "bash .devcontainer/init.sh",
     "customizations": {
@@ -23,4 +23,3 @@
         }
     }
 }
-  
